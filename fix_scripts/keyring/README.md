@@ -46,7 +46,7 @@ Keyring file version:1.0@@@garbage@@@INNODBKey-********-****-****-****-*********
 ```
 Example of invoking the program on a keyring with more keys ( but no fix needed ) this does nothing but copy the file.
 ```
-[root@p3dldantest1-a ~]# ./Key.py f -i /var/lib/mysql_data/3306/keyring -o test-keyring
+[root@p3dldantest1-a ~]# ./fix_keyring.py f -i /var/lib/mysql_data/3306/keyring -o test-keyring
 Keyring file version: 1.0
 Loaded Key: ultimate Type: AES, User: root@localhost
 Loaded Key: percona_binlog:0 Type: AES, User: SYSTEM
